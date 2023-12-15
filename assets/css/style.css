@@ -1,0 +1,51 @@
+/* Navbar */
+
+.navbar {
+    background-color: #2f5371;
+}
+
+.social-icons {
+    color: #FFFFFF;
+}
+
+.navbar-toggler {
+    color: #FFFFFF;
+    border: solid 1.5px #FFFFFF;
+    margin-right: 2%;
+}
+
+.nav-text {
+    margin: 0% 2% 0% 2%;
+}
+
+#nav-heading {
+    font-family: 'Philosopher', sans-serif;
+    font-size: 3rem;
+}
+
+.nav-link {
+    color: #FFFFFF;
+}
+
+/* Footer */
+/* Followed guide on implementing footer in the book 'Responsive Web Design with HTML and CSS by Ben Frain' pages 103/104. */
+
+#social-links-bar {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin-top: auto;
+    display: flex;
+    width: auto;
+    align-items: center;
+    justify-content: center;
+    background-color: #2f5371;
+    height: 48px;
+    font-size: 24px;
+}
+
+#social-links-bar a {
+    color: #FFFFFF;
+    margin: 2%;
+}
