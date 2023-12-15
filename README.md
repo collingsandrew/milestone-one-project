@@ -1,39 +1,52 @@
-![CI logo](https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png)
+# Willow Velvet Sphynx
 
-Welcome,
-
-This is the Code Institute student template for Codeanywhere. If you are using Gitpod then you need [this template](https://github.com/Code-Institute-Org/gitpod-full-template) instead.  We have preinstalled all of the tools you need to get started. It's perfectly ok to use this template as the basis for your project submissions.
-
-You can safely delete this README.md file, or change it for your own project. Please do read it at least once, though! It contains some important information about Codeanywhere and the extensions we use. Some of this information has been updated since the video content was created. The last update to this file was: **August 30th, 2023**
-
-## Codeanywhere Reminders
-
-To run a frontend (HTML, CSS, Javascript only) application in Codeanywhere, in the terminal, type:
-
-`python3 -m http.server`
-
-A button should appear to click: _Open Preview_ or _Open Browser_.
-
-To run a frontend (HTML, CSS, Javascript only) application in Codeanywhere with no-cache, you can use this alias for `python3 -m http.server`.
-
-`http_server`
-
-To run a backend Python file, type `python3 app.py`, if your Python file is named `app.py` of course.
-
-A button should appear to click: _Open Preview_ or _Open Browser_.
-
-In Codeanywhere you have superuser security privileges by default. Therefore you do not need to use the `sudo` (superuser do) command in the bash terminal in any of the lessons.
-
-To log into the Heroku toolbelt CLI:
-
-1. Log in to your Heroku account and go to _Account Settings_ in the menu under your avatar.
-2. Scroll down to the _API Key_ and click _Reveal_
-3. Copy the key
-4. In Codeanywhere, from the terminal, run `heroku_config`
-5. Paste in your API key when asked
-
-You can now use the `heroku` CLI program - try running `heroku apps` to confirm it works. This API key is unique and private to you so do not share it. If you accidentally make it public then you can create a new one with _Regenerate API Key_.
+Willow Velvet Sphynx is a cattery that aims to better the Sphynx cat breed through responsible breeding with thorough health tests. This website is designed to promote the cattery, provide new and returning users with care advice and the means to contact the cattery for more information and/or to join a waiting list for a kitten.
 
 ---
 
-Happy coding!
+## Contents
+
+* [User Experience](#user-experience-ux)
+
+  * [Site Contents](#site-contents)
+  * [User Stories](#user-stories)
+
+* [Features](#features)
+
+## User Experience (UX)
+
+### Site Contents
+
+- A home page with information about the cattery and their goals.
+- A page showcasing the queens of the cattery with links to their own dedicated page including images of their kittens.
+- A FAQ page for general queries and care advice.
+- A contact page for the user to get in touch for more information or to join the waiting list.
+
+### User Stories
+
+#### Client Goals
+
+- To be able to view the site on a variety of device sizes.
+- To promote the cattery and attract new customers.
+- To provide new and returning customers information about the cattery/breed/care.
+- To provide users with a means to contact the cattery.
+
+#### First Time Visitor Goals
+
+- As a first time visitor I want to be able to easily navigate around the site.
+- As a first time visitor I want information about the cattery.
+- As a first time visitor I want to see images of the cattery's queens/kittens.
+- As a first time visitor I want to find the cattery's social platforms.
+
+#### Returning Visitor Goals
+
+- As a returning visitor I want to be able to easily contact the cattery.
+- As a returning visitor I want to be able to gain answers to questions I have.
+- As a returning visitor I want to know when the cattery's next litter is due.
+
+## Features
+
+The website will include a home page, a page showcasing the queens with links to their own individual pages that will include images of their kittens, an FAQ page, and a contact page.
+Each page will be responsive.
+
+### Features on Each Page
