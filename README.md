@@ -50,3 +50,6 @@ The website will include a home page, a page showcasing the queens with links to
 Each page will be responsive.
 
 ### Features on Each Page
+
+- Each page consists of a navigation bar at the top, providing easy navigation around the site. The navigation bar is responsive and adjusts to the size of the viewport. On tablet sized devices and below, the navigation bar consists of the client logo to the left and a hamburg toggle button to the right, which provides a dropdown menu with links to each of the site's pages and the client's social platforms. On devices larger than a tablet, the logo no longer displays and is replaced with the client brand name to the left and to the right, the hamburg toggle button is replaced with a set of links to the site's pages.
+- Each page will consist of a footer that includes the client's social platforms and another link to the contact page. Icons have been used because they are universally recognisable and they provide better design. The footer is responsive and adjusts to the size of the viewport.
