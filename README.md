@@ -77,7 +77,7 @@ The following Google Fonts were used on this site:
 
 A shade of blue has been used as the primary colour for the site; other than the use of black and white, this will be the only colour used throughout the site. Blue has been used because, in terms of colour psychology, it symbolises trust and responsibility, which are important to the cattery. This shade of blue also passes all contrast test when checked against white which will be the colour used against it.
 
-![Colour Scheme](assets/readme-files/site-colour.png)
+![Colour Scheme](assets/readme/site-colour.png)
 
 ## Features
 
@@ -110,3 +110,8 @@ Mobile:
 Desktop:
 
 ![Home Desktop Test](./assets/readme/index-desktop-lighthouse.png)
+
+## Credits
+
+- https://flexboxfroggy.com/ to help with using flexbox.
+- 'Responsive Web Design with HTML5 and CSS by Ben Frain' for reference throughout the project.
