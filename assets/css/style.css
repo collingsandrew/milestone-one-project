@@ -4,7 +4,7 @@ html {
     font-family: 'Open Sans', sans-serif;
 }
 
-h1, h2 {
+h1, h2, h3 {
     font-family: 'Philosopher', sans-serif;
 }
 
@@ -92,6 +92,21 @@ h1, h2 {
     justify-content: center;
 }
 
+/* Home Page Content */
+
+.page-text h3 {
+    text-align: center;
+}
+
+.page-text {
+    margin: auto;
+    width: 90%;
+    padding: 3%;
+    background-color: #2f5371;
+    color: #FFFFFF;
+    border-radius: 40px;
+}
+
 /* Media Queries */
 /* Used the book 'Responsive Web Design with HTML and CSS by Ben Frain' pages 60/61 for a guide on implementing media queries. */
 
@@ -107,6 +122,12 @@ h1, h2 {
 
     .page-heading {
         margin-bottom: 1%;
+    }
+
+    .page-text {
+        margin: auto;
+        padding: 1%;
+        width: 50%;
     }
 }
 
