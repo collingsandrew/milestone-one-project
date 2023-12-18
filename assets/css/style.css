@@ -94,7 +94,7 @@ h1, h2, h3 {
     justify-content: center;
 }
 
-/* Home Page Content */
+/* Page text */
 
 .page-text h3 {
     text-align: center;
@@ -109,6 +109,8 @@ h1, h2, h3 {
     border-radius: 40px;
 }
 
+/* Home Page Content */
+
 .home-images {
     margin: 2%;
     display: flex;
@@ -119,8 +121,38 @@ h1, h2, h3 {
     height: auto;
     width: 93%;
     border-radius: 40px;
-    border: 3px solid #2f5371;
     margin-top: 3%;
+}
+
+/* Queens Page Cards */
+
+.queen-cards {
+    display: flex;
+    flex-direction: column;
+}
+
+.card {
+    background-color: #2f5371;
+    color: #FFFFFF;
+    text-align: center;
+    border: #FFFFFF;
+    border-radius: 40px;
+}
+
+.card img {
+    border-bottom: #FFFFFF 2px solid;
+}
+
+.card a {
+    background-color: #2f5371;
+    color: #FFFFFF;
+    border: 2px #FFFFFF solid;
+}
+
+.card a:hover {
+    background-color: #FFFFFF;
+    color: #2f5371;
+    border: #2f5371 2px solid;
 }
 
 /* Media Queries */
@@ -141,6 +173,17 @@ h1, h2, h3 {
         width: 45%;
         margin-bottom: 3%;
     }
+
+    .queen-cards {
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: baseline;
+    }
+
+     .card {
+        margin: 1rem;
+     }
 }
 
 @media (min-width: 1100px) {
