@@ -22,6 +22,8 @@ Willow Velvet Sphynx is a cattery that aims to better the Sphynx cat breed throu
 
 * [Testing](#testing)
 
+* [Credits](#credits)
+
 ## User Experience (UX)
 
 ### Site Contents
@@ -86,15 +88,22 @@ Each page will be responsive.
 
 ### Features on Each Page
 
-- Each page consists of a navigation bar at the top, providing easy navigation around the site. The navigation bar is responsive and adjusts to the size of the viewport. On tablet sized devices and below, the navigation bar consists of the client logo to the left and a hamburg toggle button to the right, which provides a dropdown menu with links to each of the site's pages and the client's social platforms. On devices larger than a tablet, the logo no longer displays and is replaced with the client brand name to the left and to the right, the hamburg toggle button is replaced with a set of links to the site's pages.
+- Each page consists of a navigation bar at the top, providing easy navigation around the site. The navigation bar is responsive and adjusts to the size of the viewport. On tablet-sized devices and below, the navigation bar consists of the client logo to the left and a hamburg toggle button to the right, which provides a dropdown menu with links to each of the site's pages and the client's social platforms. On devices larger than a tablet, the logo no longer displays and is replaced with the client brand name to the left and to the right, the hamburg toggle button is replaced with a set of links to the site's pages.
 - Each page will consist of a footer that includes the client's social platforms and another link to the contact page. Icons have been used because they are universally recognisable and they provide better design. The footer is responsive and adjusts to the size of the viewport.
 
 #### Home Page
 
 - The home page consists of a heading section, which includes the caterry's name or logo depending on the viewport size and information on when the cattery's next litter is due.
 - Below the heading section is an 'about us' section, which provides the user with information about the cattery.
-- The next section includes images of the cattery's adult cats. On small mobile devices, only one image will show; on tablet sized devices, two images will show; and on devices larger than a tablet, three images will show.
+- The next section includes images of the cattery's adult cats. On small mobile devices, only one image will show; on tablet-sized devices, two images will show; and on devices larger than a tablet, three images will show.
 - All sections on the page are responsive.
+
+#### Queens Page
+
+- The queens page consists of a heading section, which includes the caterry's name or logo depending on the viewport size and the title of 'Our Queens'.
+- Below the heading section is a snippet of text relating to the page.
+- Below the page text are 3 cards, each consisting of an image of each queen, the queen's name, and a button that links to their own dedicated page.
+- All sections on the page are responsive, with the cards flowing in a column on mobile devices, a pyramid style on tablet-sized devices, and a row on devices larger than a tablet.
 
 ## Testing
 
@@ -110,6 +119,19 @@ Mobile:
 Desktop:
 
 ![Home Desktop Test](./assets/readme/index-desktop-lighthouse.png)
+
+### Queens Page
+
+After the queens page was complete, I ran both the HTML and CSS code on the W3C code validation service and confirmed there were no errors present.
+I have run Lighthouse through Google Dev Tools, and the scores the site gave were:
+
+Mobile:
+
+![Queens Mobile Test](./assets/readme/queens-mobile-lighthouse.png)
+
+Desktop:
+
+![Queens Mobile Test](./assets/readme/queens-desktop-lighthouse.png)
 
 ## Credits
 
