@@ -41,6 +41,7 @@ h1, h2, h3 {
 
 .nav-link {
     color: #FFFFFF;
+    text-transform: uppercase;
 }
 
 /* Footer */
@@ -109,19 +110,33 @@ h1, h2, h3 {
     border-radius: 40px;
 }
 
-/* Home Page Content */
+/* Home Page Images */
 
 .home-images {
-    margin: 2%;
     display: flex;
-    justify-content: space-evenly;
+    flex-direction: column;
 }
 
-.cat-images {
+.image-links {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 3%;
+}
+
+.image-links a {
+    background-color: #2f5371;
+    border: none;
+    text-transform: uppercase;
+    margin: 3%;
+}
+
+.image-links img {
     height: auto;
-    width: 93%;
-    border-radius: 40px;
-    margin-top: 3%;
+    width: 90%;
+    border-radius: 50%;
+    box-shadow: 4px 4px 4px 4px rgb(224, 224, 224);
+    margin: 3%;
 }
 
 /* Queens Page Cards */
@@ -157,23 +172,7 @@ h1, h2, h3 {
 
 /* Media Queries */
 /* Used the book 'Responsive Web Design with HTML and CSS by Ben Frain' pages 60/61 for a guide on implementing media queries. */
-
-@media (max-width: 767px) {
-    #sleeping-cat {
-        display: none;
-    }
-
-    .cat-images {
-        margin-bottom: 3%;
-    }
-}
-
 @media (min-width: 767px) {
-    .cat-images {
-        width: 45%;
-        margin-bottom: 3%;
-    }
-
     .queen-cards {
         flex-direction: row;
         flex-wrap: wrap;
@@ -205,24 +204,10 @@ h1, h2, h3 {
         padding: 1%;
         width: 50%;
     }
-
-    .cat-images {
-        max-width: 100%;
-        width: 325px;
-        margin: 0 1rem 0 1rem;
-    }
-
-    .home-images {
-        justify-content: center;
-    }
 }
 
 @media (max-width: 1100px) {
     .page-heading img {
-        display: none;
-    }
-
-    #perched-cat {
         display: none;
     }
 }
