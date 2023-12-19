@@ -14,7 +14,7 @@
 <body>
     <!-- navbar -->
     <!-- The code used for the navbar was taken from the Bootstrap 5 docs [https://getbootstrap.com/docs/5.0/components/navbar/] and then adjusted using the Bootstrap 5 docs for guidance -->
-    <header>
+    <header aria-label="navbar">
         <nav class="navbar navbar-dark navbar-expand-lg">
             <div class="container-fluid">
                 <a class="navbar-brand nav-text" href="index.html">
@@ -63,7 +63,7 @@
         </div>
     </section>
     <!-- about us section -->
-    <section>
+    <section aria-label="about us">
         <div class="page-text">
             <div>
                 <h3>About Us</h3>
@@ -77,22 +77,22 @@
         </div>
     </section>
         <!-- Page Images -->
-        <div>
-            <div>
+        <div class="home-images">
+            <div class="image-links">
                 <img src="./assets/images/beatrice-1.jpg" alt="cat sleeping">
-                <a class="btn btn-primary" href="queens.html" role="button">queens</a>
+                <a class="btn btn-primary" href="queens.html" role="button" aria-label="go to queens page">queens</a>
             </div>
-            <div>
+            <div class="image-links">
                 <img src="./assets/images/nancy-1.jpg" alt="cat laying down">
-                <a class="btn btn-primary" href="faq.html" role="button">faq</a>
+                <a class="btn btn-primary" href="faq.html" role="button" aria-label="go to faq page">faq</a>
             </div>
-            <div>
+            <div class="image-links">
                 <img src="./assets/images/delilah-1.jpg" alt="perched cat">
-                <a class="btn btn-primary" href="contact.html" role="button">contact</a>
+                <a class="btn btn-primary" href="contact.html" role="button" aria-label="go to contact page">contact</a>
             </div>
         </div>
     <!-- social links bar -->
-    <footer id="social-links-bar">
+    <footer id="social-links-bar" aria-label="social media links">
         <a href="https://en-gb.facebook.com/" target="_blank" rel="noopener" aria-label="facebook"><i class="bi bi-facebook"></i></a>
         <a href="https://www.instagram.com/" target="_blank" rel="noopener" aria-label="instagram"><i class="bi bi-instagram"></i></a>
         <a href="contact.html" aria-label="contact"><i class="bi bi-envelope"></i></a>
