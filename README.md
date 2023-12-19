@@ -95,7 +95,7 @@ Each page will be responsive.
 
 - The home page consists of a heading section, which includes the caterry's name or logo depending on the viewport size and information on when the cattery's next litter is due.
 - Below the heading section is an 'about us' section, which provides the user with information about the cattery.
-- The next section includes images of the cattery's adult cats. On small mobile devices, only one image will show; on tablet-sized devices, two images will show; and on devices larger than a tablet, three images will show.
+- Below the About Us text are 3 cards, each consisting of an image, and a button that links to the Queens page, the FAQ page, and the contact page.
 - All sections on the page are responsive.
 
 #### Queens Page
