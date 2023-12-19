@@ -110,40 +110,12 @@ h1, h2, h3 {
     border-radius: 40px;
 }
 
-/* Home Page Images */
-
-.home-images {
-    display: flex;
-    flex-direction: column;
-}
-
-.image-links {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    margin: 3%;
-}
-
-.image-links a {
-    background-color: #2f5371;
-    border: none;
-    text-transform: uppercase;
-    margin: 3%;
-}
-
-.image-links img {
-    height: auto;
-    width: 90%;
-    border-radius: 50%;
-    box-shadow: 4px 4px 4px 4px rgb(224, 224, 224);
-    margin: 3%;
-}
-
-/* Queens Page Cards */
+/* Page Cards */
 
 .queen-cards {
     display: flex;
     flex-direction: column;
+    text-transform: uppercase;
 }
 
 .card {
