@@ -133,7 +133,22 @@ Desktop:
 
 ![Queens Mobile Test](./assets/readme/queens-desktop-lighthouse.png)
 
+## Technologies Used
+
+- [Balsamiq](https://balsamiq.com/wireframes/)
+- [Bootstrap v5.3](https://getbootstrap.com/)
+- [Tiny PNG](https://tinypng.com/)
+- [Adobe Photoshop](https://www.adobe.com/uk/)
+- [Google Fonts](https://fonts.google.com/about)
+- [Git](https://git-scm.com/)
+- [Github](https://github.com/)
+- [Visual Studio Code](https://code.visualstudio.com/)
+
 ## Credits
+
+### Resources
 
 - https://flexboxfroggy.com/ to help with using flexbox.
 - 'Responsive Web Design with HTML5 and CSS by Ben Frain' for reference throughout the project.
+
+### Code Used
