@@ -133,6 +133,12 @@ Desktop:
 
 ![Queens Mobile Test](./assets/readme/queens-desktop-lighthouse.png)
 
+## Bugs
+
+When adding the accordion to the FAQ page, there were gaps between each accordion item. This was happening because the h2 elements within the accordion button were inheriting the h2 styling from the CSS stylesheet. To fix this, I used specificity to focus on h2 elements that are a child of the 'accordion' class and removed the margins affecting them.
+
+![Accordion Margins Bug](./assets/readme/accordion-bug.png)
+
 ## Technologies Used
 
 - [Balsamiq](https://balsamiq.com/wireframes/)
