@@ -157,6 +157,14 @@ h1, h2, h3 {
     background-color: #2f5371;
 }
 
+.accordion h2 {
+    margin: 0;
+}
+
+.accordion-button:focus {
+    box-shadow: none;
+}
+
 /* Media Queries */
 /* Used the book 'Responsive Web Design with HTML and CSS by Ben Frain' pages 60/61 for a guide on implementing media queries. */
 @media (min-width: 767px) {
