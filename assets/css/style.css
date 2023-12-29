@@ -150,6 +150,13 @@ h1, h2, h3 {
     margin-bottom: 5%;
 }
 
+/* Accordion */
+
+.accordion-button:not(.collapsed) {
+    color: #FFFFFF;
+    background-color: #2f5371;
+}
+
 /* Media Queries */
 /* Used the book 'Responsive Web Design with HTML and CSS by Ben Frain' pages 60/61 for a guide on implementing media queries. */
 @media (min-width: 767px) {
@@ -191,6 +198,10 @@ h1, h2, h3 {
 
     .carousel {
         display: none;
+    }
+
+    .accordion {
+        width: 50%;
     }
 }
 
