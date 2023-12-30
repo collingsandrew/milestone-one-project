@@ -232,6 +232,10 @@ label {
     .accordion {
         width: 50%;
     }
+
+    .contact-form {
+        width: 45%;
+    }
 }
 
 @media (max-width: 1100px) {
