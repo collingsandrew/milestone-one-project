@@ -165,6 +165,27 @@ h1, h2, h3 {
     box-shadow: none;
 }
 
+/* Form */
+
+.contact-form {
+    margin: auto;
+    margin-bottom: 5%;
+    width: 90%;
+    text-align: center;
+    background-color: #2f5371;
+    color: #FFFFFF;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+textarea {
+    max-width: 100%;
+}
+
+label {
+    margin-top: 10px;
+}
+
 /* Media Queries */
 /* Used the book 'Responsive Web Design with HTML and CSS by Ben Frain' pages 60/61 for a guide on implementing media queries. */
 @media (min-width: 767px) {
