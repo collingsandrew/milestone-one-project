@@ -186,6 +186,14 @@ label {
     margin-top: 10px;
 }
 
+/* Confirmation Page */
+
+.confirmation a {
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+
 /* Media Queries */
 /* Used the book 'Responsive Web Design with HTML and CSS by Ben Frain' pages 60/61 for a guide on implementing media queries. */
 @media (min-width: 767px) {
