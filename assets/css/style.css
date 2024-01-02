@@ -162,6 +162,11 @@ h1, h2, h3 {
     text-transform: capitalize;
 }
 
+.queens-link a:hover {
+    border: #2f5371 solid;
+    color: #2f5371;
+}
+
 /* Accordion */
 
 .accordion-button:not(.collapsed) {
