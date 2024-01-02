@@ -203,14 +203,9 @@ label {
     margin-top: 10px;
 }
 
-/* Confirmation and Error Page*/
+/* Confirmation Page*/
 
-.confirmation {
-    margin-top: 3%;
-    margin-bottom: 3%;
-}
-
-.confirmation a {
+.page-text a {
     text-decoration: none;
     text-transform: uppercase;
     color: #FFFFFF;
@@ -218,10 +213,12 @@ label {
     border-radius: 5px;
 }
 
-.confirmation a:hover {
+.page-text a:hover {
     background-color: #FFFFFF;
     color: #2f5371;
 }
+
+/* 404 Page */
 
 #error-image {
     width: 100%;
