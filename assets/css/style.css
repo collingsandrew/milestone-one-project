@@ -203,7 +203,12 @@ label {
     margin-top: 10px;
 }
 
-/* Confirmation Page */
+/* Confirmation and Error Page*/
+
+.confirmation {
+    margin-top: 3%;
+    margin-bottom: 3%;
+}
 
 .confirmation a {
     text-decoration: none;
@@ -216,6 +221,12 @@ label {
 .confirmation a:hover {
     background-color: #FFFFFF;
     color: #2f5371;
+}
+
+#error-image {
+    width: 100%;
+    border-radius: 10px;
+    margin-top: 10px;
 }
 
 /* Media Queries */
@@ -253,7 +264,7 @@ label {
     }
 
     .page-text {
-        margin: auto;
+        /*margin: auto;*/
         padding: 1%;
         width: 50%;
     }
