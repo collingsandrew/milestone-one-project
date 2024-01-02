@@ -204,6 +204,13 @@ label {
     text-decoration: none;
     text-transform: uppercase;
     color: #FFFFFF;
+    padding: 4px;
+    border-radius: 5px;
+}
+
+.confirmation a:hover {
+    background-color: #FFFFFF;
+    color: #2f5371;
 }
 
 /* Media Queries */
