@@ -230,6 +230,7 @@ label {
 
      .card {
         margin: 1rem;
+        width: 300px;
      }
 
      .carousel {
