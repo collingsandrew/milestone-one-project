@@ -147,7 +147,19 @@ h1, h2, h3 {
 .carousel {
     margin: auto;
     margin-top: 5%;
-    margin-bottom: 5%;
+    margin-bottom: 3%;
+}
+
+.queens-link {
+    display: flex;
+    justify-content: center;
+    margin: 10px;
+}
+
+.queens-link a{
+    background-color: #2f5371;
+    color:#FFFFFF;
+    text-transform: capitalize;
 }
 
 /* Accordion */
