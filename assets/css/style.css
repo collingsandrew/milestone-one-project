@@ -207,6 +207,18 @@ label {
     margin-top: 10px;
 }
 
+#form-button {
+    color: #FFFFFF;
+    background-color: #2f5371;
+    border: #FFFFFF solid 2px;
+    border-radius: 5px;
+}
+
+#form-button:hover {
+    background-color: #FFFFFF;
+    color: #2f5371;
+}
+
 /* Confirmation Page*/
 
 .page-text a {
