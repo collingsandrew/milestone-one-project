@@ -167,6 +167,10 @@ h1, h2, h3 {
     color: #2f5371;
 }
 
+.queen-grid-images img {
+    border-radius: 10px;
+}
+
 /* Accordion */
 
 .accordion-button:not(.collapsed) {
@@ -239,10 +243,6 @@ label {
      .card {
         margin: 1rem;
         width: 300px;
-     }
-
-     .carousel {
-        width: 85%;
      }
 }
 
