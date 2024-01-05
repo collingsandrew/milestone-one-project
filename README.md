@@ -4,26 +4,6 @@ Willow Velvet Sphynx is a cattery that aims to better the Sphynx cat breed throu
 
 ---
 
-## Contents
-
-* [User Experience](#user-experience-ux)
-
-  * [Site Contents](#site-contents)
-  * [User Stories](#user-stories)
-
-* [Design](#design)
-
-  * [Imagery](#imagery)
-  * [Wireframes](#wireframes)
-  * [Typography](#typography)
-  * [Colour Scheme](#colour-scheme)
-
-* [Features](#features)
-
-* [Testing](#testing)
-
-* [Credits](#credits)
-
 ## User Experience (UX)
 
 ### Site Contents
@@ -132,6 +112,40 @@ Mobile:
 Desktop:
 
 ![Queens Mobile Test](./assets/readme/queens-desktop-lighthouse.png)
+
+## Deployment
+
+### Deploying the project
+
+GitHub pages were used to deploy this project. The following steps explain how this is done:
+
+1. When logged into GitHub, locate and access the [repository]. (https://github.com/collingsandrew/milestone-one-project)
+2. Click on the settings link that is located at the top of the repository.
+3. Using the menu to the left, follow the pages link.
+4. Here, we then need to make sure the source drop-down box is set to 'deploy from branch'.
+5. Finally, we set the branch to 'main' and the folder to 'root', and then click save.
+
+The page should then refresh, and the link to the deployed website should appear at the top of the page.
+
+### Fork
+
+Forking a project creates a completely seperate codebase and allows you to make local changes to a project without affecting the original repository itself.
+
+To fork the repository:
+
+1. When logged into GitHub, locate and access the [repository]. (https://github.com/collingsandrew/milestone-one-project)
+2. At the top right of the repository, there will be a 'fork' option.
+
+### Clone
+
+Cloning a project allows a user to make contributions to the main repository, with permission.
+
+To clone the repository:
+
+1. When logged into GitHub, locate and access the [repository]. (https://github.com/collingsandrew/milestone-one-project)
+2. Above your files to the right, select the code drop down button and select either HTTPS, SSH or GitHub CLI and then copy the URL below.
+3. Then, in your chosen code editor, change the current working directory to the location you would like the cloned repository.
+4. In the terminal, type 'git clone' and paste the URL that you copied earlier and then press enter.
 
 ## Bugs
 
