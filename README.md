@@ -149,9 +149,21 @@ To clone the repository:
 
 ## Bugs
 
-When adding the accordion to the FAQ page, there were gaps between each accordion item. This was happening because the h2 elements within the accordion button were inheriting the h2 styling from the CSS stylesheet. To fix this, I used specificity to focus on h2 elements that are a child of the 'accordion' class and removed the margins affecting them.
+### Fixed
 
-![Accordion Margins Bug](./assets/readme/accordion-bug.png)
+- When adding the accordion to the FAQ page, there were gaps between each accordion item. This was happening because the h2 elements within the accordion button were inheriting the h2 styling from the CSS stylesheet. To fix this, I used specificity to focus on h2 elements that are a child of the 'accordion' class and removed the margins affecting them.
+
+![Accordion Margins Bug](./assets/readme/bugs/accordion-bug.png)
+
+- When testing the deployed site on the Safari browser, the input submit button for the contact form was displaying differently than it was on other browsers. I wanted a consistent design throughout the site, so I changed the input element to a button element with the 'type' attribute as 'submit'. This enabled me to style the button in line with the design of the rest of the site and also stop the design from changing on different browsers.
+
+Form button before:
+
+![Form Button Before](./assets/readme/bugs/form-button-before.jpg)
+
+Form Button After:
+
+![Form Button After](./assets/readme/bugs/form-button-after.jpg)
 
 ## Technologies Used
 
