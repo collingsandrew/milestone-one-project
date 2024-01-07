@@ -1,6 +1,10 @@
 # Willow Velvet Sphynx
 
-Willow Velvet Sphynx is a cattery that aims to better the Sphynx cat breed through responsible breeding with thorough health tests. This website is designed to promote the cattery, provide new and returning users with care advice and the means to contact the cattery for more information and/or to join a waiting list for a kitten.
+![Site Image](./assets/readme/site-image.png)
+
+Willow Velvet Sphynx is a cattery that aims to improve the Sphynx cat breed through responsible breeding and thorough health tests. This website is designed to promote the cattery, provide new and returning users with care advice, and provide the means to contact the cattery for more information and/or to join a waiting list for a kitten.
+
+[View live webpage](https://collingsandrew.github.io/milestone-one-project/index.html)
 
 ---
 
@@ -39,7 +43,7 @@ Willow Velvet Sphynx is a cattery that aims to better the Sphynx cat breed throu
 
 ## Content
 
-All content used within the site was provided by Willow Velvet Sphynx cattery.
+All content used within the site was provided by Willow Velvet Sphynx.
 
 ## Design
 
@@ -53,6 +57,30 @@ All images used belong to Willow Velvet Sphynx.
 <details>
 <summary>Home Page</summary>
 <img src="./assets/readme/wireframes/home-page.png">
+</details>
+<details>
+<summary>Queens Page</summary>
+<img src="./assets/readme/wireframes/queens-page.png">
+</details>
+<details>
+<summary>Individual Queen Page</summary>
+<img src="./assets/readme/wireframes/individual-queen-page.png">
+</details>
+<details>
+<summary>FAQ Page</summary>
+<img src="./assets/readme/wireframes/faq-page.png">
+</details>
+<details>
+<summary>Contact Page</summary>
+<img src="./assets/readme/wireframes/contact-page.png">
+</details>
+<details>
+<summary>Form Confirmation Page</summary>
+<img src="./assets/readme/wireframes/confirmation-page.png">
+</details>
+<details>
+<summary>404 Page</summary>
+<img src="./assets/readme/wireframes/404-page.png">
 </details>
 
 ### Typography
@@ -130,7 +158,7 @@ Desktop:
 
 GitHub pages were used to deploy this project. The following steps explain how this is done:
 
-1. When logged into GitHub, locate and access the [repository]. (https://github.com/collingsandrew/milestone-one-project)
+1. When logged into GitHub, locate and access the [repository.](https://github.com/collingsandrew/milestone-one-project)
 2. Click on the settings link that is located at the top of the repository.
 3. Using the menu to the left, follow the pages link.
 4. Here, we then need to make sure the source drop-down box is set to 'deploy from branch'.
@@ -144,7 +172,7 @@ Forking a project creates a completely seperate codebase and allows a user to ma
 
 To fork the repository:
 
-1. When logged into GitHub, locate and access the [repository]. (https://github.com/collingsandrew/milestone-one-project)
+1. When logged into GitHub, locate and access the [repository.](https://github.com/collingsandrew/milestone-one-project)
 2. At the top right of the repository, there will be a 'fork' option.
 
 ### Clone
@@ -153,7 +181,7 @@ Cloning a project allows a user to make contributions to the main repository, wi
 
 To clone the repository:
 
-1. When logged into GitHub, locate and access the [repository]. (https://github.com/collingsandrew/milestone-one-project)
+1. When logged into GitHub, locate and access the [repository.](https://github.com/collingsandrew/milestone-one-project)
 2. Above your files to the right, select the code drop down button and select either HTTPS, SSH or GitHub CLI and then copy the URL below.
 3. Then, in your chosen code editor, change the current working directory to the location you would like the cloned repository.
 4. In the terminal, type 'git clone' and paste the URL that you copied earlier and then press enter.
