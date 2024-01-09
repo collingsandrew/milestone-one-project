@@ -2,7 +2,7 @@
 
 ![Site Image](./assets/readme/site-image.png)
 
-Willow Velvet Sphynx is a cattery that aims to improve the Sphynx cat breed through responsible breeding and thorough health tests. This website is designed to promote the cattery, provide new and returning users with care advice, and provide the means to contact the cattery for more information and/or to join a waiting list for a kitten.
+Willow Velvet Sphynx is a cattery that aims to improve the Sphynx cat breed through responsible breeding and thorough health tests. This website is designed to promote the cattery, provide new and returning users with answers to various questions they may have, and provide the means to contact the cattery for more information and/or to join a waiting list for a kitten.
 
 [View live webpage](https://collingsandrew.github.io/milestone-one-project/index.html)
 
@@ -88,7 +88,12 @@ All images used belong to Willow Velvet Sphynx.
 The following Google Fonts were used on this site:
 
 - Philosopher is used for the headings on the site. This is a Sans Serif font.
+
+![Philosopher](assets/readme/fonts/philosopher.png)
+
 - Open Sans is used for the main text of the site. This is a Sans Serif font.
+
+![Open Sans](assets/readme/fonts/open-sans.png)
 
 Both of these fonts look professional and are easy to read.
 
@@ -100,29 +105,87 @@ A shade of blue has been used as the primary colour for the site; other than the
 
 ## Features
 
-The website will include a home page, a page showcasing the queens with links to their own individual pages that will include images of their kittens, an FAQ page, and a contact page.
+The website will include a home page, a page showcasing the queens with links to their own individual pages that will include images of the queen and their kittens, an FAQ page, and a contact page.
+The website will also include a confirmation page for submission of the form on the contact page and a 404 error page.
 Each page will be responsive on all devices.
 
 ### Features on Each Page
 
-- Each page consists of a navigation bar at the top, providing easy navigation around the site. The navigation bar is responsive and adjusts to the size of the viewport. On tablet-sized devices and below, the navigation bar consists of the client logo to the left and a hamburg toggle button to the right, which provides a dropdown menu with links to each of the site's pages and the client's social platforms. On devices larger than a tablet, the logo no longer displays and is replaced with the client brand name to the left and to the right, the hamburg toggle button is replaced with a set of links to the site's pages.
+- Each page consists of a navigation bar at the top, providing easy navigation around the site. The navigation bar is responsive and adjusts to the size of the viewport. On tablet-sized devices and below, the navigation bar consists of the client logo to the left and a hamburg toggle button to the right, which provides a drop-down menu with links to each of the site's pages and the client's social platforms. On devices larger than a tablet, the logo no longer displays and is replaced with the client brand name to the left and to the right, and the hamburg toggle button is replaced with a set of links to the site's pages.
+
+Desktop:
+
+![Desktop Navbar](assets/readme/features/navbar.png)
+
+Mobile:
+
+![Mobile Navbar](assets/readme/features/navbar-mobile.png)
+
 - Each page will consist of a footer that includes the client's social platforms and another link to the contact page. Icons have been used because they are universally recognisable and they provide better design. The footer is responsive and adjusts to the size of the viewport.
 
-User stories covered: 5, 8
+![Footer](assets/readme/features/footer.png)
 
-#### Home Page
+- Each page will consist of a heading section, which includes the caterry's name or logo depending on the viewport size and the title of the page.
 
-- The home page consists of a heading section, which includes the caterry's name or logo depending on the viewport size and information on when the cattery's next litter is due.
-- Below the heading section is an 'about us' section, which provides the user with information about the cattery.
-- Below the About Us text are 3 cards, each consisting of an image, and a button that links to the Queens page, the FAQ page, and the contact page.
-- All sections on the page are responsive.
+User stories: 1, 5, 8
 
-#### Queens Page
 
-- The queens page consists of a heading section, which includes the caterry's name or logo depending on the viewport size and the title of 'Our Queens'.
-- Below the heading section is a snippet of text relating to the page.
-- Below the page text are 3 cards, each consisting of an image of each queen, the queen's name, and a button that links to their own dedicated page.
+### Home Page
+
+- When the cattery's next litter is due.
+- About Us section, which provides the user with information about the cattery and what they do differently.
+- 3 cards, each consisting of an image, and a button that links to the Queens page, the FAQ page, and the contact page.
 - All sections on the page are responsive, with the cards flowing in a column on mobile devices, a pyramid style on tablet-sized devices, and a row on devices larger than a tablet.
+
+User stories: 1, 2, 3, 5, 6, 11
+<details>
+<summary>Preview</summary>
+<img src="./assets/readme/features/home-page.png">
+</details>
+
+### Queens Page
+
+- Information about the cattery's queens and the health tests the cattery carries out.
+- 3 cards, each consisting of an image of each queen, the queen's name, and a button that links to their own dedicated page.
+- All sections on the page are responsive, with the cards flowing in a column on mobile devices, a pyramid style on tablet-sized devices, and a row on devices larger than a tablet.
+
+User stories: 1, 2, 3, 5, 7
+<details>
+<summary>Preview</summary>
+<img src="./assets/readme/features/queens-page.png">
+</details>
+
+### Individual Queens Pages
+
+- Information about the queen.
+- A carousel or grid of images, depending on viewport size, with images of the queen and kittens.
+- A link back to the queens page.
+
+User stories: 1, 2, 5, 7
+<details>
+<summary>Preview</summary>
+<img src="./assets/readme/features/individual-queen-pages.png">
+</details>
+
+### FAQ Page
+
+- An accordion that consists of multiple questions and answers.
+
+User stories: 1, 3, 6, 10
+<details>
+<summary>Preview</summary>
+<img src="./assets/readme/features/faq-page.png">
+</details>
+
+### Contact Page
+
+- A form that allows the user to contact the cattery.
+
+User stories: 4, 9, 10
+<details>
+<summary>Preview</summary>
+<img src="./assets/readme/features/contact-page.png">
+</details>
 
 ## Testing
 
