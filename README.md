@@ -105,10 +105,6 @@ A shade of blue has been used as the primary colour for the site; other than the
 
 ## Features
 
-The website will include a home page, a page showcasing the queens with links to their own individual pages that will include images of the queen and their kittens, an FAQ page, and a contact page.
-The website will also include a confirmation page for submission of the form on the contact page and a 404 error page.
-Each page will be responsive on all devices.
-
 ### Features on Each Page
 
 - Each page consists of a navigation bar at the top, providing easy navigation around the site. The navigation bar is responsive and adjusts to the size of the viewport. On tablet-sized devices and below, the navigation bar consists of the client logo to the left and a hamburg toggle button to the right, which provides a drop-down menu with links to each of the site's pages and the client's social platforms. On devices larger than a tablet, the logo no longer displays and is replaced with the client brand name to the left and to the right, and the hamburg toggle button is replaced with a set of links to the site's pages.
@@ -128,7 +124,6 @@ Mobile:
 - Each page will consist of a heading section, which includes the caterry's name or logo depending on the viewport size and the title of the page.
 
 User stories: 1, 5, 8
-
 
 ### Home Page
 
@@ -187,34 +182,6 @@ User stories: 4, 9, 10
 <img src="./assets/readme/features/contact-page.png">
 </details>
 
-## Testing
-
-### Home Page
-
-After the home page was complete, I ran both the HTML and CSS code on the W3C code validation service and confirmed there were no errors present.
-I have run Lighthouse through Google Dev Tools, and the scores the site gave were:
-
-Mobile:
-
-![Home Mobile Test](./assets/readme/index-mobile-lighthouse.png)
-
-Desktop:
-
-![Home Desktop Test](./assets/readme/index-desktop-lighthouse.png)
-
-### Queens Page
-
-After the queens page was complete, I ran both the HTML and CSS code on the W3C code validation service and confirmed there were no errors present.
-I have run Lighthouse through Google Dev Tools, and the scores the site gave were:
-
-Mobile:
-
-![Queens Mobile Test](./assets/readme/queens-mobile-lighthouse.png)
-
-Desktop:
-
-![Queens Mobile Test](./assets/readme/queens-desktop-lighthouse.png)
-
 ## Deployment
 
 ### Deploying the project
@@ -249,29 +216,33 @@ To clone the repository:
 3. Then, in your chosen code editor, change the current working directory to the location you would like the cloned repository.
 4. In the terminal, type 'git clone' and paste the URL that you copied earlier and then press enter.
 
+## Testing
+
 ## Bugs
 
 ### Fixed
 
 - When adding the accordion to the FAQ page, there were gaps between each accordion item. This was happening because the h2 elements within the accordion button were inheriting the h2 styling from the CSS stylesheet. To fix this, I used specificity to focus on h2 elements that are a child of the 'accordion' class and removed the margins affecting them.
 
-Before:
-
-![Accordion Margins Bug](./assets/readme/bugs/accordion-bug.png)
-
-After:
-
-![Accordion Margins After](./assets/readme/bugs/accordion-bug-after.png)
+<details>
+<summary>Before:</summary>
+<img src="./assets/readme/bugs/accordion-bug.png">
+</details>
+<details>
+<summary>After:</summary>
+<img src="./assets/readme/bugs/accordion-bug-after.png">
+</details>
 
 - When testing the deployed site on the Safari browser, the input submit button for the contact form was displaying differently than it was on other browsers. I wanted a consistent design throughout the site, so I changed the input element to a button element with the 'type' attribute as 'submit'. This enabled me to style the button in line with the design of the rest of the site and also stop the design from changing on different browsers.
 
-Form button before:
-
-![Form Button Before](./assets/readme/bugs/form-button-before.jpg)
-
-Form Button After:
-
-![Form Button After](./assets/readme/bugs/form-button-after.jpg)
+<details>
+<summary>Before:</summary>
+<img src="./assets/readme/bugs/form-button-before.jpg">
+</details>
+<details>
+<summary>After:</summary>
+<img src="./assets/readme/bugs/form-button-after.jpg">
+</details>
 
 ## Technologies Used
 
