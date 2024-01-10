@@ -218,6 +218,32 @@ To clone the repository:
 
 ## Testing
 
+### Code Validation
+
+#### HTML Validation
+
+[W3C Markup Validation Service](https://validator.w3.org/) was used to validate the HTML. All pages passed with no errors.
+
+[index.html results](https://validator.w3.org/nu/?doc=https%3A%2F%2Fcollingsandrew.github.io%2Fmilestone-one-project%2Findex.html)
+
+[queens.html results](https://validator.w3.org/nu/?doc=https%3A%2F%2Fcollingsandrew.github.io%2Fmilestone-one-project%2Fqueens.html)
+
+[nancy.html results](https://validator.w3.org/nu/?doc=https%3A%2F%2Fcollingsandrew.github.io%2Fmilestone-one-project%2Fnancy.html)
+
+[beatrice.html results](https://validator.w3.org/nu/?doc=https%3A%2F%2Fcollingsandrew.github.io%2Fmilestone-one-project%2Fbeatrice.html)
+
+[delilah.html results](https://validator.w3.org/nu/?doc=https%3A%2F%2Fcollingsandrew.github.io%2Fmilestone-one-project%2Fdelilah.html)
+
+[faq.html results](https://validator.w3.org/nu/?doc=https%3A%2F%2Fcollingsandrew.github.io%2Fmilestone-one-project%2Ffaq.html)
+
+[contact.html results](https://validator.w3.org/nu/?doc=https%3A%2F%2Fcollingsandrew.github.io%2Fmilestone-one-project%2Fcontact.html)
+
+#### CSS Validation
+
+[W3C CSS Validation Service](https://jigsaw.w3.org/css-validator/) was used to validate my own custom CSS. No errors were found.
+
+![CSS Validation](assets/readme/testing/css-validation.png)
+
 ## Bugs
 
 ### Fixed
