@@ -19,6 +19,10 @@ Willow Velvet Sphynx is a cattery that aims to improve the Sphynx cat breed thro
 - A confirmation page for the form.
 - A 404 error page.
 
+### Target Audience
+
+- Fellow breeders looking for another cat to join teir own cattery
+
 ### User Stories
 
 #### Client Goals
@@ -107,7 +111,7 @@ A shade of blue has been used as the primary colour for the site; other than the
 
 ### Features on Each Page
 
-- Each page consists of a navigation bar at the top, providing easy navigation around the site. The navigation bar is responsive and adjusts to the size of the viewport. On tablet-sized devices and below, the navigation bar consists of the client logo to the left and a hamburg toggle button to the right, which provides a drop-down menu with links to each of the site's pages and the client's social platforms. On devices larger than a tablet, the logo no longer displays and is replaced with the client brand name to the left and to the right, and the hamburg toggle button is replaced with a set of links to the site's pages.
+- Each page consists of a navigation bar at the top, providing easy navigation around the site. The navigation bar is responsive and adjusts to the size of the viewport. On tablet-sized devices and below, the navigation bar consists of the client logo to the left and a hamburg toggle button to the right, which provides a drop-down menu with links to each of the site's pages and the client's social platforms. On devices larger than a tablet, the logo no longer displays and is replaced with the client brand name to the left and to the right, the hamburg toggle button is replaced with a set of links to the site's pages.
 
 Desktop:
 
@@ -121,7 +125,7 @@ Mobile:
 
 ![Footer](assets/readme/features/footer.png)
 
-- Each page will consist of a heading section, which includes the caterry's name or logo depending on the viewport size and the title of the page.
+- Each page will consist of a heading section, which includes the cattery's name or logo depending on the viewport size and the title of the page.
 
 User stories: 1, 5, 8
 
@@ -335,6 +339,28 @@ Google Lighthouse was used to test all pages. All pages performed well.
 <summary>Desktop</summary>
 <img src="./assets/readme/testing/lighthouse/confirmation-desktop-lighthouse.png">
 </details>
+
+### Accessibility Testing
+
+[WAVE Web Accessibility Tool](https://wave.webaim.org/) was used to test for accessibility errors. All pages passed with no errors and no contrast errors.
+
+[index.html results](https://wave.webaim.org/report#/https://collingsandrew.github.io/milestone-one-project/index.html)
+
+[queens.html results](https://wave.webaim.org/report#/https://collingsandrew.github.io/milestone-one-project/queens.html)
+
+[nancy.html results](https://wave.webaim.org/report#/https://collingsandrew.github.io/milestone-one-project/nancy.html)
+
+[beatrice.html results](https://wave.webaim.org/report#/https://collingsandrew.github.io/milestone-one-project/beatrice.html)
+
+[delilah.html results](https://wave.webaim.org/report#/https://collingsandrew.github.io/milestone-one-project/delilah.html)
+
+[faq.html results](https://wave.webaim.org/report#/https://collingsandrew.github.io/milestone-one-project/faq.html)
+
+[contact.html results](https://wave.webaim.org/report#/https://collingsandrew.github.io/milestone-one-project/contact.html)
+
+[confirmation.html results](https://wave.webaim.org/report#/https://collingsandrew.github.io/milestone-one-project/confirmation.html?)
+
+[404.html results](https://wave.webaim.org/report#/https://collingsandrew.github.io/milestone-one-project/confirmation.h)
 
 ## Bugs
 
