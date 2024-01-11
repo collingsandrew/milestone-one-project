@@ -244,6 +244,98 @@ To clone the repository:
 
 ![CSS Validation](assets/readme/testing/css-validation.png)
 
+### Lighthouse Testing
+
+Google Lighthouse was used to test all pages. All pages performed well.
+
+index.html
+
+<details>
+<summary>Mobile</summary>
+<img src="./assets/readme/testing/lighthouse/index-mobile-lighthouse.png">
+</details>
+<details>
+<summary>Desktop</summary>
+<img src="./assets/readme/testing/lighthouse/index-desktop-lighthouse.png">
+</details>
+
+queens.html
+
+<details>
+<summary>Mobile</summary>
+<img src="./assets/readme/testing/lighthouse/queens-mobile-lighthouse.png">
+</details>
+<details>
+<summary>Desktop</summary>
+<img src="./assets/readme/testing/lighthouse/queens-desktop-lighthouse.png">
+</details>
+
+nancy.html
+
+<details>
+<summary>Mobile</summary>
+<img src="./assets/readme/testing/lighthouse/nancy-mobile-lighthouse.png">
+</details>
+<details>
+<summary>Desktop</summary>
+<img src="./assets/readme/testing/lighthouse/nancy-desktop-lighthouse.png">
+</details>
+
+beatrice.html
+
+<details>
+<summary>Mobile</summary>
+<img src="./assets/readme/testing/lighthouse/beatrice-mobile-lighthouse.png">
+</details>
+<details>
+<summary>Desktop</summary>
+<img src="./assets/readme/testing/lighthouse/beatrice-desktop-lighthouse.png">
+</details>
+
+delilah.html
+
+<details>
+<summary>Mobile</summary>
+<img src="./assets/readme/testing/lighthouse/delilah-mobile-lighthouse.png">
+</details>
+<details>
+<summary>Desktop</summary>
+<img src="./assets/readme/testing/lighthouse/delilah-desktop-lighthouse.png">
+</details>
+
+faq.html
+
+<details>
+<summary>Mobile</summary>
+<img src="./assets/readme/testing/lighthouse/faq-mobile-lighthouse.png">
+</details>
+<details>
+<summary>Desktop</summary>
+<img src="./assets/readme/testing/lighthouse/faq-desktop-lighthouse.png">
+</details>
+
+contact.html
+
+<details>
+<summary>Mobile</summary>
+<img src="./assets/readme/testing/lighthouse/contact-mobile-lighthouse.png">
+</details>
+<details>
+<summary>Desktop</summary>
+<img src="./assets/readme/testing/lighthouse/contact-desktop-lighthouse.png">
+</details>
+
+confirmation.html
+
+<details>
+<summary>Mobile</summary>
+<img src="./assets/readme/testing/lighthouse/confirmation-mobile-lighthouse.png">
+</details>
+<details>
+<summary>Desktop</summary>
+<img src="./assets/readme/testing/lighthouse/confirmation-desktop-lighthouse.png">
+</details>
+
 ## Bugs
 
 ### Fixed
