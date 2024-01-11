@@ -248,7 +248,7 @@ To clone the repository:
 
 Google Lighthouse was used to test all pages. All pages performed well.
 
-index.html
+#### index.html
 
 <details>
 <summary>Mobile</summary>
@@ -259,7 +259,7 @@ index.html
 <img src="./assets/readme/testing/lighthouse/index-desktop-lighthouse.png">
 </details>
 
-queens.html
+#### queens.html
 
 <details>
 <summary>Mobile</summary>
@@ -270,7 +270,7 @@ queens.html
 <img src="./assets/readme/testing/lighthouse/queens-desktop-lighthouse.png">
 </details>
 
-nancy.html
+#### nancy.html
 
 <details>
 <summary>Mobile</summary>
@@ -281,7 +281,7 @@ nancy.html
 <img src="./assets/readme/testing/lighthouse/nancy-desktop-lighthouse.png">
 </details>
 
-beatrice.html
+#### beatrice.html
 
 <details>
 <summary>Mobile</summary>
@@ -292,7 +292,7 @@ beatrice.html
 <img src="./assets/readme/testing/lighthouse/beatrice-desktop-lighthouse.png">
 </details>
 
-delilah.html
+#### delilah.html
 
 <details>
 <summary>Mobile</summary>
@@ -303,7 +303,7 @@ delilah.html
 <img src="./assets/readme/testing/lighthouse/delilah-desktop-lighthouse.png">
 </details>
 
-faq.html
+#### faq.html
 
 <details>
 <summary>Mobile</summary>
@@ -314,7 +314,7 @@ faq.html
 <img src="./assets/readme/testing/lighthouse/faq-desktop-lighthouse.png">
 </details>
 
-contact.html
+#### contact.html
 
 <details>
 <summary>Mobile</summary>
@@ -325,7 +325,7 @@ contact.html
 <img src="./assets/readme/testing/lighthouse/contact-desktop-lighthouse.png">
 </details>
 
-confirmation.html
+#### confirmation.html
 
 <details>
 <summary>Mobile</summary>
