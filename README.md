@@ -31,7 +31,7 @@ Willow Velvet Sphynx is a cattery that aims to improve the Sphynx cat breed thro
 
 1. To be able to view the site on a variety of device sizes.
 2. To promote the cattery and attract new customers.
-3. To provide new and returning customers information about the cattery/breed/care.
+3. To provide new and returning customers information about the cattery, breed, and care.
 4. To provide users with a means to contact the cattery.
 
 #### First Time Visitor Goals
@@ -50,6 +50,16 @@ Willow Velvet Sphynx is a cattery that aims to improve the Sphynx cat breed thro
 ## Content
 
 All content used within the site was provided by Willow Velvet Sphynx.
+
+## Accessibility
+
+The site has been built with accessibility in mind to ensure that it is always a positive experience.
+
+This has been achieved by:
+- Semantic HTML.
+- Choosing fonts and colours of high contrast.
+- Adequate aria-labels for interactive features.
+- Adequate alt attributes for images.
 
 ## Design
 
@@ -224,6 +234,24 @@ To clone the repository:
 
 ## Testing
 
+#### Devices
+
+Google Developer Tools was used to test the site on various devices sizes.
+
+The following devices were used to test the site:
+- 32" (3840 x 2160) Desktop Monitor
+- 15.6" (1920 x 1080) ASUS Laptop
+- iPad Tablet
+- Samsung S23 Mobile
+- iPhone 12 Mobile
+
+#### Browsers
+
+The following browsers were used to test the site:
+- Google Chrome
+- Mozilla Firefox
+- Safari
+
 ### Code Validation
 
 #### HTML Validation
@@ -378,7 +406,7 @@ Google Lighthouse was used to test all pages. All pages performed well.
     * A professional but simple look to not overwhelm the user and to prevent the user from leaving the site.
     * The content within the site has been used to promote the cattery with short snippets of text to not overwhelm the user.
 
-3. To provide new and returning customers information about the cattery/breed/care.
+3. To provide new and returning customers information about the cattery, breed, and care.
     * The home page provides an 'About Us' section that gives the user information about the cattery.
     * The FAQ page provides the user with multiple questions and answers relating to the cattery, breed, and care.
 
@@ -419,6 +447,8 @@ Google Lighthouse was used to test all pages. All pages performed well.
 11. As a returning visitor, I want to know when the cattery's next litter is due.
     * The heading of the home page provides the user with information on when the cattery's next litter is due.
 
+### Functionality Testing
+
 ## Bugs
 
 ### Fixed
@@ -456,6 +486,8 @@ Google Lighthouse was used to test all pages. All pages performed well.
 - [Github](https://github.com/)
 - [Visual Studio Code](https://code.visualstudio.com/)
 - [Favicon](https://favicon.io/)
+- [Jira Software](https://willowvelvet.atlassian.net/jira/software/projects/WVS/boards/2)
+- [Am I Responsive](https://ui.dev/amiresponsive)
 
 ### Languages
 
