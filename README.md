@@ -21,7 +21,9 @@ Willow Velvet Sphynx is a cattery that aims to improve the Sphynx cat breed thro
 
 ### Target Audience
 
-- Fellow breeders looking for another cat to join teir own cattery
+- Fellow breeders looking for another kitten to join their own cattery.
+- Customers interested in giving a kitten a forever home.
+- New and returning customers searching for information/advice.
 
 ### User Stories
 
@@ -34,16 +36,16 @@ Willow Velvet Sphynx is a cattery that aims to improve the Sphynx cat breed thro
 
 #### First Time Visitor Goals
 
-5. As a first time visitor I want to be able to easily navigate around the site.
-6. As a first time visitor I want information about the cattery.
-7. As a first time visitor I want to see images of the cattery's queens/kittens.
-8. As a first time visitor I want to find the cattery's social platforms.
+5. As a first time visitor, I want to be able to easily navigate around the site.
+6. As a first time visitor, I want information about the cattery.
+7. As a first time visitor, I want to see images of the cattery's queens/kittens.
+8. As a first time visitor, I want to find the cattery's social platforms.
 
 #### Returning Visitor Goals
 
-9. As a returning visitor I want to be able to easily contact the cattery.
-10. As a returning visitor I want to be able to gain answers to questions I have.
-11. As a returning visitor I want to know when the cattery's next litter is due.
+9. As a returning visitor, I want to be able to easily contact the cattery.
+10. As a returning visitor, I want to be able to gain answers to questions I have.
+11. As a returning visitor, I want to know when the cattery's next litter is due.
 
 ## Content
 
@@ -362,6 +364,61 @@ Google Lighthouse was used to test all pages. All pages performed well.
 
 [404.html results](https://wave.webaim.org/report#/https://collingsandrew.github.io/milestone-one-project/confirmation.h)
 
+### User Stories
+
+#### Client Goals
+
+1. To be able to view the site on a variety of device sizes.
+    * All features within the site are responsive on all device sizes.
+    * The navbar changes from a hamburg toggle menu on mobile and tablet devices to a generic navbar with links on laptop and desktop devices.
+    * The layout of features changes from a column on mobile devices to a row on desktop/laptop devices.
+
+2. To promote the cattery and attract new customers.
+    * The site is structured well for the user to easily navigate and obtain what they need from the site.
+    * A professional but simple look to not overwhelm the user and to prevent the user from leaving the site.
+    * The content within the site has been used to promote the cattery with short snippets of text to not overwhelm the user.
+
+3. To provide new and returning customers information about the cattery/breed/care.
+    * The home page provides an 'About Us' section that gives the user information about the cattery.
+    * The FAQ page provides the user with multiple questions and answers relating to the cattery, breed, and care.
+
+4. To provide users with a means to contact the cattery.
+    * The contact page provides the user with the means to contact the cattery by filling out a form.
+    * Social links that allow users to visit the cattery's social platforms and contact them through them.
+
+#### First Time Visitor Goals
+
+5. As a first time visitor, I want to be able to easily navigate around the site.
+    * The site is structured well for the user to easily navigate around the site.
+    * A simple navbar with links on laptop and desktop devices.
+    * A navbar with the common hamburg toggle menu on mobile and tablet devices.
+
+6. As a first time visitor, I want information about the cattery.
+    * The home page provides an 'About Us' section that gives the user information about the cattery.
+    * The FAQ page provides the user with multiple questions and answers relating to the cattery.
+
+7. As a first time visitor, I want to see images of the cattery's queens/kittens.
+    * The individual queens pages provide images of the queens and their kittens.
+    * Bootstrap cards have been used which include an image of the cattery's queens.
+
+8. As a first time visitor, I want to find the cattery's social platforms.
+    * The footer includes links to the cattery's social platforms.
+    * On mobile devices, the hamburg toggle menu includes links to the cattery's social platforms.
+
+#### Returning Visitor Goals
+
+9. As a returning visitor, I want to be able to easily contact the cattery.
+    * The contact page provides the user with the means to contact the cattery by filling out a form.
+    * Social links that allow users to visit the cattery's social platforms and contact them through there.
+
+10. As a returning visitor, I want to be able to gain answers to questions I have.
+    * The FAQ page provides the user with multiple questions and answers.
+    * The site includes information that could answer questions users may have.
+    * The contact page provides the user with the means to contact the cattery through a form to ask unanswered questions.
+
+11. As a returning visitor, I want to know when the cattery's next litter is due.
+    * The heading of the home page provides the user with information on when the cattery's next litter is due.
+
 ## Bugs
 
 ### Fixed
@@ -391,13 +448,14 @@ Google Lighthouse was used to test all pages. All pages performed well.
 ## Technologies Used
 
 - [Balsamiq](https://balsamiq.com/wireframes/)
-- [Bootstrap v5.3](https://getbootstrap.com/)
+- [Bootstrap v5.3.2](https://getbootstrap.com/)
 - [Tiny PNG](https://tinypng.com/)
 - [Adobe Photoshop](https://www.adobe.com/uk/)
 - [Google Fonts](https://fonts.google.com/about)
 - [Git](https://git-scm.com/)
 - [Github](https://github.com/)
 - [Visual Studio Code](https://code.visualstudio.com/)
+- [Favicon](https://favicon.io/)
 
 ### Languages
 
