@@ -392,7 +392,7 @@ Google Lighthouse was used to test all pages. All pages performed well.
 
 [404.html results](https://wave.webaim.org/report#/https://collingsandrew.github.io/milestone-one-project/confirmation.h)
 
-### User Stories
+### Testing User Stories
 
 #### Client Goals
 
@@ -665,11 +665,23 @@ Google Lighthouse was used to test all pages. All pages performed well.
 
 ## Credits
 
+### Acknowledgements
+
+- My mentor for guidance throughout the project.
+- My cohort for help and support throughout the project.
+- Code Institute for their course material.
+
+### Code Used
+
+- Navbar - [from the Bootstrap 5 Docs.](https://getbootstrap.com/docs/5.0/components/navbar/)
+- Cards - [from the Bootstrap 5 Docs.](https://getbootstrap.com/docs/5.0/components/card/)
+- Carousels - [from the Bootstrap 5 Docs.](https://getbootstrap.com/docs/5.0/components/carousel/)
+- Grid layout for the queens images - [from the Bootstrap 5 Docs.](https://getbootstrap.com/docs/5.0/layout/grid/)
+- Accordion - [from the Bootstrap 5 Docs.](https://getbootstrap.com/docs/5.0/components/accordion/)
+
 ### Resources
 
 - [Flexbox Froggy](https://flexboxfroggy.com/) to help with using flexbox.
 - [Responsive Web Design with HTML5 and CSS by Ben Frain](https://benfrain.com/books/responsive-web-design-with-html5-and-css-4th-edition/) for reference throughout the project.
 - [Bootstrap 5 documentation](https://getbootstrap.com/docs/5.0/getting-started/introduction/) to assist with implementing the bootstrap components.
 - [W3Schools](https://www.w3schools.com/) for reference throughout the project.
-
-### Code Used
