@@ -234,9 +234,9 @@ To clone the repository:
 
 ## Testing
 
-#### Devices
+### Devices
 
-Google Developer Tools was used to test the site on various devices sizes.
+Google Developer Tools was used to test the site on various device sizes.
 
 The following devices were used to test the site:
 - 32" (3840 x 2160) Desktop Monitor
@@ -245,7 +245,7 @@ The following devices were used to test the site:
 - Samsung S23 Mobile
 - iPhone 12 Mobile
 
-#### Browsers
+### Browsers
 
 The following browsers were used to test the site:
 - Google Chrome
@@ -448,6 +448,175 @@ Google Lighthouse was used to test all pages. All pages performed well.
     * The heading of the home page provides the user with information on when the cattery's next litter is due.
 
 ### Functionality Testing
+
+#### Site Page Load
+
+| Action                        | Expected Result    | Pass/Fail|
+| ----------------------------- |--------------------|----------|
+| Site URL entered into browser | Site loads         | Pass     |
+
+#### index.html
+
+| Action                                | Expected Result                | Pass/Fail      |
+| --------------------------------------|--------------------------------|----------------|
+| Load page                             | Page loads                     | Pass           |
+| Click Queens link (navbar)            | Go to queens.html              | Pass           |
+| Click FAQ link (navbar)               | Go to faq.html                 | Pass           |
+| Click Contact link (navbar)           | Go to contact.html             | Pass           |
+| Click Facebook link (mobile menu)     | Go to Facebook page in new tab | Pass           |
+| Click Instagram link (mobile menu)    | Go to Instagram page in new tab| Pass           |
+| Click Queens link (card)              | Go to queens.html              | Pass           |
+| Click FAQ link (card)                 | Go to faq.html                 | Pass           |
+| Click Contact link (card)             | Go to contact.html             | Pass           |
+| Click Facebook icon (footer)          | Go to Facebook page in new tab | Pass           |
+| Click Instagram icon (footer)         | Go to Instagram page in new tab| Pass           |
+| Click envelope icon (footer)          | Go to contact.html             | Pass           |
+
+#### queens.html
+
+| Action                                            | Expected Result                | Pass/Fail      |
+| --------------------------------------------------|--------------------------------|----------------|
+| Load page                                         | Page loads                     | Pass           |
+| Click navbar heading/logo                         | Go to index.html               | Pass           |
+| Click Home link (navbar)                          | Go to index.html               | Pass           |
+| Click FAQ link (navbar)                           | Go to faq.html                 | Pass           |
+| Click Contact link (navbar)                       | Go to contact.html             | Pass           |
+| Click Facebook link (mobile menu)                 | Go to Facebook page in new tab | Pass           |
+| Click Instagram link (mobile menu)                | Go to Instagram page in new tab| Pass           |
+| Click Find Out More About Me link (Nancy card)    | Go to nancy.html               | Pass           |
+| Click Find Out More About Me link (Beatrice card) | Go to beatrice.html            | Pass           |
+| Click Find Out More About Me link (Delilah card)  | Go to delilah.html             | Pass           |
+| Click Facebook icon (footer)                      | Go to Facebook page in new tab | Pass           |
+| Click Instagram icon (footer)                     | Go to Instagram page in new tab| Pass           |
+| Click envelope icon (footer)                      | Go to contact.html             | Pass           |
+
+#### nancy.html
+
+| Action                                | Expected Result                     | Pass/Fail      |
+| --------------------------------------|-------------------------------------|----------------|
+| Load page                             | Page loads                          | Pass           |
+| Click navbar heading/logo             | Go to index.html                    | Pass           |
+| Click Home link (navbar)              | Go to index.html                    | Pass           |
+| Click Queens link (navbar)            | Go to queens.html                   | Pass           |
+| Click FAQ link (navbar)               | Go to faq.html                      | Pass           |
+| Click Contact link (navbar)           | Go to contact.html                  | Pass           |
+| Click Facebook link (mobile menu)     | Go to Facebook page in new tab      | Pass           |
+| Click Instagram link (mobile menu)    | Go to Instagram page in new tab     | Pass           |
+| Click carousel controls               | Scroll left and right through images| Pass           |
+| Click Go Back To Our Queens Page link | Go to queens.html                   | Pass           |
+| Click Facebook icon (footer)          | Go to Facebook page in new tab      | Pass           |
+| Click Instagram icon (footer)         | Go to Instagram page in new tab     | Pass           |
+| Click envelope icon (footer)          | Go to contact.html                  | Pass           |
+
+#### beatrice.html
+
+| Action                                | Expected Result                     | Pass/Fail      |
+| --------------------------------------|-------------------------------------|----------------|
+| Load page                             | Page loads                          | Pass           |
+| Click navbar heading/logo             | Go to index.html                    | Pass           |
+| Click Home link (navbar)              | Go to index.html                    | Pass           |
+| Click Queens link (navbar)            | Go to queens.html                   | Pass           |
+| Click FAQ link (navbar)               | Go to faq.html                      | Pass           |
+| Click Contact link (navbar)           | Go to contact.html                  | Pass           |
+| Click Facebook link (mobile menu)     | Go to Facebook page in new tab      | Pass           |
+| Click Instagram link (mobile menu)    | Go to Instagram page in new tab     | Pass           |
+| Click carousel controls               | Scroll left and right through images| Pass           |
+| Click Go Back To Our Queens Page link | Go to queens.html                   | Pass           |
+| Click Facebook icon (footer)          | Go to Facebook page in new tab      | Pass           |
+| Click Instagram icon (footer)         | Go to Instagram page in new tab     | Pass           |
+| Click envelope icon (footer)          | Go to contact.html                  | Pass           |
+
+#### delilah.html
+
+| Action                                | Expected Result                     | Pass/Fail      |
+| --------------------------------------|-------------------------------------|----------------|
+| Load page                             | Page loads                          | Pass           |
+| Click navbar heading/logo             | Go to index.html                    | Pass           |
+| Click Home link (navbar)              | Go to index.html                    | Pass           |
+| Click Queens link (navbar)            | Go to queens.html                   | Pass           |
+| Click FAQ link (navbar)               | Go to faq.html                      | Pass           |
+| Click Contact link (navbar)           | Go to contact.html                  | Pass           |
+| Click Facebook link (mobile menu)     | Go to Facebook page in new tab      | Pass           |
+| Click Instagram link (mobile menu)    | Go to Instagram page in new tab     | Pass           |
+| Click carousel controls               | Scroll left and right through images| Pass           |
+| Click Go Back To Our Queens Page link | Go to queens.html                   | Pass           |
+| Click Facebook icon (footer)          | Go to Facebook page in new tab      | Pass           |
+| Click Instagram icon (footer)         | Go to Instagram page in new tab     | Pass           |
+| Click envelope icon (footer)          | Go to contact.html                  | Pass           |
+
+#### faq.html
+
+| Action                                | Expected Result                     | Pass/Fail      |
+| --------------------------------------|-------------------------------------|----------------|
+| Load page                             | Page loads                          | Pass           |
+| Click navbar heading/logo             | Go to index.html                    | Pass           |
+| Click Home link (navbar)              | Go to index.html                    | Pass           |
+| Click Queens link (navbar)            | Go to queens.html                   | Pass           |
+| Click Contact link (navbar)           | Go to contact.html                  | Pass           |
+| Click Facebook link (mobile menu)     | Go to Facebook page in new tab      | Pass           |
+| Click Instagram link (mobile menu)    | Go to Instagram page in new tab     | Pass           |
+| Click accordion drop down buttons     | Text drops down                     | Pass           |
+| Click Facebook icon (footer)          | Go to Facebook page in new tab      | Pass           |
+| Click Instagram icon (footer)         | Go to Instagram page in new tab     | Pass           |
+| Click envelope icon (footer)          | Go to contact.html                  | Pass           |
+
+#### contact.html
+
+| Action                                | Expected Result                     | Pass/Fail      |
+| --------------------------------------|-------------------------------------|----------------|
+| Load page                             | Page loads                          | Pass           |
+| Click navbar heading/logo             | Go to index.html                    | Pass           |
+| Click Home link (navbar)              | Go to index.html                    | Pass           |
+| Click Queens link (navbar)            | Go to queens.html                   | Pass           |
+| Click FAQ link (navbar)               | Go to faq.html                      | Pass           |
+| Click Facebook link (mobile menu)     | Go to Facebook page in new tab      | Pass           |
+| Click Instagram link (mobile menu)    | Go to Instagram page in new tab     | Pass           |
+| Click Facebook icon (footer)          | Go to Facebook page in new tab      | Pass           |
+| Click Instagram icon (footer)         | Go to Instagram page in new tab     | Pass           |
+| Click envelope icon (footer)          | Go to contact.html                  | Pass           |
+
+##### Form
+
+| Action                                                     | Expected Result         | Pass/Fail      |
+| -----------------------------------------------------------|-------------------------|----------------|
+| Click submit button when all fields are filled in correctly| Go to confirmation.html | Pass           |
+| Click submit button when name field is empty               | Error message           | Pass           |
+| Click submit button when email field is empty              | Error message           | Pass           |
+| Click submit button when text area field is empty          | Error message           | Pass           |
+
+#### confirmation.html
+
+| Action                                | Expected Result                     | Pass/Fail      |
+| --------------------------------------|-------------------------------------|----------------|
+| Load page                             | Page loads                          | Pass           |
+| Click navbar heading/logo             | Go to index.html                    | Pass           |
+| Click Home link (navbar)              | Go to index.html                    | Pass           |
+| Click Queens link (navbar)            | Go to queens.html                   | Pass           |
+| Click FAQ link (navbar)               | Go to faq.html                      | Pass           |
+| Click Contact link (navbar)           | Go to contact.html                  | Pass           |
+| Click Facebook link (mobile menu)     | Go to Facebook page in new tab      | Pass           |
+| Click Instagram link (mobile menu)    | Go to Instagram page in new tab     | Pass           |
+| Click Go Back To The Home Page link   | Go to index.html                    | Pass           |
+| Click Facebook icon (footer)          | Go to Facebook page in new tab      | Pass           |
+| Click Instagram icon (footer)         | Go to Instagram page in new tab     | Pass           |
+| Click envelope icon (footer)          | Go to contact.html                  | Pass           |
+
+#### 404.html
+
+| Action                                | Expected Result                     | Pass/Fail      |
+| --------------------------------------|-------------------------------------|----------------|
+| Load page                             | Page loads                          | Pass           |
+| Click navbar heading/logo             | Go to index.html                    | Pass           |
+| Click Home link (navbar)              | Go to index.html                    | Pass           |
+| Click Queens link (navbar)            | Go to queens.html                   | Pass           |
+| Click FAQ link (navbar)               | Go to faq.html                      | Pass           |
+| Click Contact link (navbar)           | Go to contact.html                  | Pass           |
+| Click Facebook link (mobile menu)     | Go to Facebook page in new tab      | Pass           |
+| Click Instagram link (mobile menu)    | Go to Instagram page in new tab     | Pass           |
+| Click Go Back To The Home Page link   | Go to index.html                    | Pass           |
+| Click Facebook icon (footer)          | Go to Facebook page in new tab      | Pass           |
+| Click Instagram icon (footer)         | Go to Instagram page in new tab     | Pass           |
+| Click envelope icon (footer)          | Go to contact.html                  | Pass           |
 
 ## Bugs
 
