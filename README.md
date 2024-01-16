@@ -2,7 +2,7 @@
 
 ![Site Image](./assets/readme/site-image.png)
 
-Willow Velvet Sphynx is a cattery that aims to improve the Sphynx cat breed through responsible breeding and thorough health tests. This website is designed to promote the cattery, provide new and returning users with answers to various questions they may have, and provide the means to contact the cattery for more information and/or to join a waiting list for a kitten.
+Willow Velvet Sphynx is a cattery that aims to improve the Sphynx cat breed through responsible breeding and thorough health tests. This website is designed to promote the cattery, showing visitors they are trustworthy, responsible, and knowledgeable, providing new and returning users with answers to various questions they may have, and providing the means to contact the cattery for more information and/or to join a waiting list for a kitten.
 
 [View live webpage](https://collingsandrew.github.io/milestone-one-project/index.html)
 
@@ -12,8 +12,8 @@ Willow Velvet Sphynx is a cattery that aims to improve the Sphynx cat breed thro
 
 ### Site Contents
 
-- A home page with information about the cattery and their goals.
-- A page showcasing the queens of the cattery with links to their own dedicated page including images of their kittens.
+- A home page with information about the cattery and its goals.
+- A page showcasing the queens of the cattery with links to their own dedicated page, including images of their kittens.
 - A FAQ page for general queries and care advice.
 - A contact page for the user to get in touch for more information or to join the waiting list.
 - A confirmation page for the form.
@@ -22,8 +22,8 @@ Willow Velvet Sphynx is a cattery that aims to improve the Sphynx cat breed thro
 ### Target Audience
 
 - Fellow breeders looking for another kitten to join their own cattery.
-- Customers interested in giving a kitten a forever home.
-- New and returning customers searching for information/advice.
+- Customers that are interested in giving a kitten a forever home.
+- New and returning customers searching for information or advice.
 
 ### User Stories
 
@@ -31,14 +31,14 @@ Willow Velvet Sphynx is a cattery that aims to improve the Sphynx cat breed thro
 
 1. To be able to view the site on a variety of device sizes.
 2. To promote the cattery and attract new customers.
-3. To provide new and returning customers information about the cattery, breed, and care.
+3. To provide new and returning customers with information about the cattery, breed, and care.
 4. To provide users with a means to contact the cattery.
 
 #### First Time Visitor Goals
 
 5. As a first time visitor, I want to be able to easily navigate around the site.
 6. As a first time visitor, I want information about the cattery.
-7. As a first time visitor, I want to see images of the cattery's queens/kittens.
+7. As a first time visitor, I want to see images of the cattery's queens and kittens.
 8. As a first time visitor, I want to find the cattery's social platforms.
 
 #### Returning Visitor Goals
@@ -57,7 +57,7 @@ The site has been built with accessibility in mind to ensure that it is always a
 
 This has been achieved by:
 - Semantic HTML.
-- Choosing fonts and colours of high contrast.
+- Choosing fonts and colours with high contrast.
 - Adequate aria-labels for interactive features.
 - Adequate alt attributes for images.
 
@@ -65,7 +65,7 @@ This has been achieved by:
 
 ### Imagery
 
-All imagery used within the site has been chosen to showcase the catterys queens and kittens.
+All imagery used within the site has been chosen to showcase the cattery's queens and kittens.
 All images used belong to Willow Velvet Sphynx.
 
 ### Wireframes
@@ -115,7 +115,7 @@ Both of these fonts look professional and are easy to read.
 
 ### Colour Scheme
 
-A shade of blue has been used as the primary colour for the site; other than the use of black and white, this will be the only colour used throughout the site. Blue has been used because, in terms of colour psychology, it symbolises trust and responsibility, which are important to the cattery. This shade of blue also passes all contrast tests when checked against white which will be the colour used against it.
+A shade of blue has been used as the primary colour for the site; other than the use of black and white, this will be the only colour used throughout the site. Blue has been used because, in terms of colour psychology, it symbolises trust and responsibility, which are important to the cattery. This shade of blue also passes all contrast tests when checked against white, which will be the colour used against it.
 
 ![Colour Scheme](assets/readme/site-colour.png)
 
@@ -169,8 +169,8 @@ User stories: 1, 2, 3, 5, 7
 ### Individual Queens Pages
 
 - Information about the queen.
-- A carousel or grid of images, depending on viewport size, with images of the queen and kittens.
-- A link back to the queens page.
+- A carousel or grid of images, depending on the viewport size, with images of the queen and kittens.
+- A link back to the Queens page.
 
 User stories: 1, 2, 5, 7
 <details>
@@ -214,7 +214,7 @@ The page should then refresh, and the link to the deployed website should appear
 
 ### Fork
 
-Forking a project creates a completely seperate codebase and allows a user to make local changes to a project without affecting the original repository itself.
+Forking a project creates a completely separate codebase and allows a user to make local changes to a project without affecting the original repository itself.
 
 To fork the repository:
 
@@ -229,8 +229,8 @@ To clone the repository:
 
 1. When logged into GitHub, locate and access the [repository.](https://github.com/collingsandrew/milestone-one-project)
 2. Above your files to the right, select the code drop down button and select either HTTPS, SSH or GitHub CLI and then copy the URL below.
-3. Then, in your chosen code editor, change the current working directory to the location you would like the cloned repository.
-4. In the terminal, type 'git clone' and paste the URL that you copied earlier and then press enter.
+3. Then, in your chosen code editor, change the current working directory to the location you would like the cloned repository to be located.
+4. In the terminal, type 'git clone' and paste the URL that you copied earlier, and then press enter.
 
 ## Testing
 
@@ -399,14 +399,14 @@ Google Lighthouse was used to test all pages. All pages performed well.
 1. To be able to view the site on a variety of device sizes.
     * All features within the site are responsive on all device sizes.
     * The navbar changes from a hamburg toggle menu on mobile and tablet devices to a generic navbar with links on laptop and desktop devices.
-    * The layout of features changes from a column on mobile devices to a row on desktop/laptop devices.
+    * The layout of features changes from a column on mobile devices to a row on desktop or laptop devices.
 
 2. To promote the cattery and attract new customers.
     * The site is structured well for the user to easily navigate and obtain what they need from the site.
     * A professional but simple look to not overwhelm the user and to prevent the user from leaving the site.
     * The content within the site has been used to promote the cattery with short snippets of text to not overwhelm the user.
 
-3. To provide new and returning customers information about the cattery, breed, and care.
+3. To provide new and returning customers with information about the cattery, breed, and care.
     * The home page provides an 'About Us' section that gives the user information about the cattery.
     * The FAQ page provides the user with multiple questions and answers relating to the cattery, breed, and care.
 
@@ -425,9 +425,9 @@ Google Lighthouse was used to test all pages. All pages performed well.
     * The home page provides an 'About Us' section that gives the user information about the cattery.
     * The FAQ page provides the user with multiple questions and answers relating to the cattery.
 
-7. As a first time visitor, I want to see images of the cattery's queens/kittens.
+7. As a first time visitor, I want to see images of the cattery's queens and kittens.
     * The individual queens pages provide images of the queens and their kittens.
-    * Bootstrap cards have been used which include an image of the cattery's queens.
+    * Bootstrap cards have been used, which include an image of the cattery's queens.
 
 8. As a first time visitor, I want to find the cattery's social platforms.
     * The footer includes links to the cattery's social platforms.
