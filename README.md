@@ -25,6 +25,10 @@ Willow Velvet Sphynx is a cattery that aims to improve the Sphynx cat breed thro
 - Customers that are interested in giving a kitten a forever home.
 - New and returning customers searching for information or advice.
 
+### Project Purpose
+
+The purpose of this project is to create an informative yet simple, professional-looking site that shows new and returning customers why Willow Velvet Sphynx should always be their first choice when choosing a sphynx breeder. The cattery aims for all customers to have a positive experience when dealing with them, and this site will be their first experience, so it should provide just that.
+
 ### User Stories
 
 #### Client Goals
