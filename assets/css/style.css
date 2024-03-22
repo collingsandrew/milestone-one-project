@@ -171,6 +171,19 @@ h1, h2, h3 {
     border-radius: 10px;
 }
 
+/* YouTube Video */
+
+#youtube-video {
+    border-radius: 10px;
+}
+
+.video-container {
+    margin: auto;
+    margin-bottom: 2%;
+    font-size: 10px;
+    font-style: italic;
+}
+
 /* Accordion */
 
 .accordion-button:not(.collapsed) {
@@ -298,6 +311,12 @@ label {
     }
 
     .queen-grid-images {
+        display: none;
+    }
+}
+
+@media (max-width: 500px) {
+    .video-container {
         display: none;
     }
 }
