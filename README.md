@@ -563,6 +563,8 @@ Google Lighthouse was used to test all pages. All pages performed well.
 | Click Facebook icon (footer)          | Go to Facebook page in new tab      | Pass           |
 | Click Instagram icon (footer)         | Go to Instagram page in new tab     | Pass           |
 | Click envelope icon (footer)          | Go to contact.html                  | Pass           |
+| Click play on YouTube video           | Video plays                         | Pass           |
+| Click controls on YouTube video       | All controls to work                | Pass           |
 
 #### contact.html
 
@@ -661,6 +663,7 @@ Google Lighthouse was used to test all pages. All pages performed well.
 - [Favicon](https://favicon.io/)
 - [Jira Software](https://willowvelvet.atlassian.net/jira/software/projects/WVS/boards/2)
 - [Am I Responsive](https://ui.dev/amiresponsive)
+- [YouTube](https://www.youtube.com/)
 
 ### Languages
 
